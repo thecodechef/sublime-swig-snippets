@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+{% if ${1:value} %}
+	${2:key}
+{% elseif ${3:value} %}
+	${4:key}
+{% else %}
+	${5:key}
+{% endif %}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ifelseif</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
