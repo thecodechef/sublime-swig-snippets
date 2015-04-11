@@ -3,4 +3,4 @@
 # SublimeSwigSnippets
 
 [sublime-image]: https://img.shields.io/badge/sublime-plugin-brightgreen.svg
-[sublime-url]: https://www.packagecontrol.io/
+[sublime-url]: http://www.packagecontrol.io/
