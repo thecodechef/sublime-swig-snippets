@@ -2,5 +2,5 @@
 
 # SublimeSwigSnippets
 
-[sublime-image]: https://img.shields.io/badge/sublime-plugin-brightgreen.svg
+[sublime-image]: http://img.shields.io/badge/sublime-plugin-brightgreen.svg
 [sublime-url]: https://packagecontrol.io/
