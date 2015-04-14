@@ -1,11 +1,6 @@
 <snippet>
-	<content><![CDATA[
-{% autoescape %}
-	${1:value}
-{% endautoescape %}
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<content><![CDATA[{% autoescape %}${1:value}{% endautoescape %}]]></content>
 	<tabTrigger>escape</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
+	<descripion>{% autoescape %}...{% endautoescape %}</descripion>
 </snippet>

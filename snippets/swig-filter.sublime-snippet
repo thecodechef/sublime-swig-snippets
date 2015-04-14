@@ -1,11 +1,6 @@
 <snippet>
-	<content><![CDATA[
-{% filter ${1:statement} %}
-	${2:content}
-{% endfilter %}
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>hello</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<content><![CDATA[{% filter ${1:statement} %}${2:content}{% endfilter %}]]></content>
+	<tabTrigger>filter</tabTrigger>
 	<scope>text.html</scope>
+	<description>{% filter %}...{% endfilter %}</description>
 </snippet>

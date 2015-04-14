@@ -1,11 +1,6 @@
 <snippet>
-	<content><![CDATA[
-{% spaceless %}
-	${1:value}
-{% endspaceless %}
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<content><![CDATA[{% spaceless %}${1:value}{% endspaceless %}]]></content>
 	<tabTrigger>spaceless</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
+	<description>{% spaceless %}...{% endspaceless %}</description>
 </snippet>
